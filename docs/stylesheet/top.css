@@ -1,5 +1,4 @@
 /* トップページのCSS */
-
 /* ページヘッダー */
 .page-header {
   background-color: blueviolet;
@@ -58,32 +57,6 @@
   margin-top: 0;
 }
 
-.card__title {
-  margin-top: 10px;
-  font-size: 24px;
-}
-
-.card__text {
-  margin-top: 10px;
-  font-size: 16px;
-}
-
-.card__meta {
-  margin-top: 10px;
-  display: flex;
-  align-items: baseline;
-}
-
-.card__meta-item {
-  margin-left: 10px;
-  color: gray;
-  font-size: 16px;
-}
-
-.card__meta-item:first-child {
-  margin-left: 0;
-}
-
 @media screen and (min-width: 768px) {
   .card-list {
     display: flex;
@@ -98,4 +71,31 @@
   .card-list__item:nth-child(-n + 2) {
     margin-top: 0;
   }
+}
+
+
+.card__title {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.card__text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.card__meta {
+  margin-top: 10px;
+  display: flex;
+  /* align-items: baseline; */
+}
+
+.card__meta-item {
+  margin-left: 10px;
+  color: gray;
+  font-size: 16px;
+}
+
+.card__meta-item:first-child {
+  margin-left: 0;
 }
