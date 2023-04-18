@@ -1,1 +1,53 @@
 /* 記事ページのCSS */
+
+.article {
+    padding: 20px;
+}
+
+.article__inner {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.article__title {
+
+}
+
+.article__image {
+
+
+}
+
+.article__info {
+
+}
+
+.article__info-item {
+
+}
+
+.article__info-item:first-child {
+
+}
+
+@media screen and (min-width: 760px){
+    .article__info{
+
+    }
+    .article__info-item{
+
+    }
+}
+
+/* section */
+.section:nth-child(n+2){
+
+}
+
+.section__title{
+
+}
+
+.section__text{
+    
+}
